@@ -21,5 +21,16 @@ int Solution::solve(vector<int> &A, int B) {
         if(sum>max)
             max=sum;
     }
+    
+//     while(i<B+1 && j>=-1)
+//     { 
+//         sum = accumulate(A.begin(),A.begin()+i,0) + accumulate(A.end()-j-1,A.end(),0);
+//         cout << sum << endl;
+//         if(sum>max)
+//             max=sum;
+//         i++;
+//         j--;
+//     }
+    
     return (max);
 }
